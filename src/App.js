@@ -138,7 +138,7 @@ function App() {
               style={{
                 top: circle.y,
                 left: circle.x,
-                backgroundColor: pointArr.includes(circle.id) ? "yellow" : "lightblue"
+                backgroundColor: "lightblue"
               }}
               onClick={() => {
                 handlePointClick(circle.id);
